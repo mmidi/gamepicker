@@ -1,5 +1,5 @@
-let wheel = document.querySelector('.wheel');
-let spinBtn = document.querySelector('.spinBtn');
+const wheel = document.querySelector('.wheel');
+const spinBtn = document.querySelector('.spinBtn');
 let value = Math.ceil(Math.random() * 3600);
 
 spinBtn.onclick = function(){
